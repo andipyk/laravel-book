@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Laravel 5.7 BOOK</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <style>
+    div.container{
+        margin-top: 50px;
+    }
+    div.button{
+        text-align: center;
+    }
+    </style>
 </head>
 <body>
     @yield('content')
